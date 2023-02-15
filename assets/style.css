@@ -104,12 +104,14 @@ h5,h5 {
   margin-bottom: 10px;
 }
 
+ img, .logo{
+  max-width:200px;
+}
 img {
   border: none;
   outline: none;
-  max-width: 100%;
+  max-width:100%;
 }
-
 label {
   display: inline-block;
   font-weight: normal;
