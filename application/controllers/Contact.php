@@ -7,7 +7,7 @@ class Contact extends CI_Controller {
 	public function index()
 	{
 
-    	$mod_page = 'Mod_'.get_class($this);
+    	$mod_page = 'Mod_'.strtolower(get_class($this));
 		$this->load->model($mod_page);
 		$this->$mod_page->loadPage();
 	

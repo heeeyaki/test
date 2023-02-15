@@ -97,11 +97,6 @@
                         </li>
                         <li class="dropdown">
                             <a href="services">Services </a>
-                               <!--  <ul class="dropdown-menu">
-                                    <li><a href="">APPLICATION FOR CREDIT LOSS SOLUTIONS</a></li>
-                                    <li><a href="">CREDIT SCORING ENGINE</a></li>
-                                    <li><a href="">LOAN ORIGINATION SYSTEM</a></li>
-                                </ul> -->
                         </li>
                         <li>
                             <a href="contact">contact</a>

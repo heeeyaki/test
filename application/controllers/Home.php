@@ -8,7 +8,7 @@ class Home extends CI_Controller {
 	{
 
 		
-    	$mod_page = 'Mod_home';
+    	$mod_page = 'Mod_'.strtolower(get_class($this));
 		$this->load->model($mod_page);
 		$this->$mod_page->loadPage();
 	
